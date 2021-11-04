@@ -1,0 +1,41 @@
+<head>
+	<h1>
+		Atividade 01
+	</h1>
+</head>
+<link href="01-calculadora.css" rel="stylesheet">
+<script src="01-calculadora.js"></script>
+
+<body>
+	<div class=title>Calculadora</div>
+	<table>
+		<tr>
+			<td colspan="3"><input type="text" id="resultado" /></td>
+			<td><input type="button" value="c" onclick="limpar()" /> </td>
+		</tr>
+		<tr>
+			<td><input type="button" value="7" onclick="adicionar(value)" /> </td>
+			<td><input type="button" value="8" onclick="adicionar(value)" /> </td>
+			<td><input type="button" value="9" onclick="adicionar(value)" /> </td>
+			<td><input type="button" value="+" onclick="adicionar(value)" /> </td>
+		</tr>
+		<tr>
+			<td><input type="button" value="4" onclick="adicionar(value)" /> </td>
+			<td><input type="button" value="5" onclick="adicionar(value)" /> </td>
+			<td><input type="button" value="6" onclick="adicionar(value)" /> </td>
+			<td><input type="button" value="-" onclick="adicionar(value)" /> </td>
+		</tr>
+		<tr>
+			<td><input type="button" value="1" onclick="adicionar(value)" /> </td>
+			<td><input type="button" value="2" onclick="adicionar(value)" /> </td>
+			<td><input type="button" value="3" onclick="adicionar(value)" /> </td>
+			<td><input type="button" value="/" onclick="adicionar(value)" /> </td>
+		</tr>
+		<tr>
+			<td><input type="button" value="." onclick="adicionar(value)" /> </td>
+			<td><input type="button" value="0" onclick="adicionar(value)" /> </td>
+			<td><input type="button" value="=" onclick="solve()" /> </td>
+			<td><input type="button" value="*" onclick="adicionar(value)" /> </td>
+		</tr>
+	</table>
+</body>
