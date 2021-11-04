@@ -1,14 +1,14 @@
-# **CSI606-2021-01 - Estrutura básica do repositório**
+# **CSI606 - Estrutura básica do repositório**
 
 ## Atualize os seus dados:
 
-- Nome:
-- Matrícula:
-- Curso:
-- Semestre/Ano correntes:
-- Link para o seu GitHub:
+- Nome: Lucas Duarte Almeida
+- Matrícula: 18.1.8049
+- Curso: Sistemas de Informação
+- Semestre/Ano correntes: 21.1
+- Link para o seu GitHub: github.com/LDAlmeida
 
 ## [Projeto final:](./Projeto/README.md) 
 
-Apresente uma breve descrição do seu projeto.
+Pede bem é um sistema de comandas simples e prático.
 
